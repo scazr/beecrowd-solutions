@@ -1,0 +1,5 @@
+A, D = map(int, input().split())
+if D <= 2: print('nova')
+elif 97 <= D <= 100: print('cheia')
+elif D < A: print('minguante')
+else: print('crescente')
